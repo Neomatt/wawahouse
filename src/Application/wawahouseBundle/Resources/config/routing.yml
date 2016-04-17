@@ -1,0 +1,3 @@
+applicationwawahouse_homepage:
+    path:     /
+    defaults: { _controller: ApplicationwawahouseBundle:Default:index }

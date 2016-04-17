@@ -35,3 +35,7 @@ $ php app/console doctrine:fixtures:load
 ## Starter Kit
 
 Go to localhost/wawahouse/web/app_dev.php/admin to access the admin and refer the sonata documentation to create new admin panel.
+
+To fix asset on CSS and JS
+
+use command: composer require symfony/assetic-bundle
