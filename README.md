@@ -31,8 +31,6 @@ php app/console doctrine:schema:update --force (demander à Doctrine de créer n
 
 $ php app/console doctrine:fixtures:load
 
-# A superadmin user is created with the fixtures with username `admin` and password `admin`
-
 
 ## Starter Kit
 
