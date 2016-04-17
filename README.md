@@ -25,7 +25,10 @@ $ php app/console assets:install --symlink
 
 #Create schema
 
-$ php app/console doctrine:database:create
+$ php app/console doctrine:database:create (si BD pas encore créer -bd name :wawahouse_db)
+
+php app/console doctrine:schema:update --force (demander à Doctrine de créer nos tables de BDD (ou les mettre à jour afin de prendre en compte notre configuration))
+
 $ php app/console doctrine:fixtures:load
 
 # A superadmin user is created with the fixtures with username `admin` and password `admin`
